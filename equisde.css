@@ -23,10 +23,46 @@ h1{
     text-align: center;
     font-size: 30px;
     margin-top: 150px;
-    margin-left: 450px;
+    margin-left: 325px;
     background-color: rgba(34, 34, 34, 0.815);
-    width: 950px;
-    height: 400px;
+    width: 1200px;
+    height: 180px;
+    border-color: blueviolet;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(34, 34, 34, 0.815);
+    margin-left: 485px;
+    width:  900px ;
+    height: 45px;
+    border-color: blueviolet;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    margin-bottom: cover;
+    padding-bottom:cover;
+    justify-content: center;
+    margin-left: 60px;
+    height: 200px;
+    width: 1800px;
+    place-items: center center;
+}
+button{ display: grid;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    height: 200px;
+    width: 270px;
     border-color: blueviolet;
     border-style: ridge;
     border-width: 10px;
